@@ -7,6 +7,76 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Program Pembelian Tiket Bioskop
+
+Sistem web modern untuk pembelian tiket bioskop, dibangun dengan Laravel sebagai backend API, React sebagai frontend SPA, dan Tailwind CSS untuk desain UI. Mendukung autentikasi menggunakan Laravel Sanctum.
+
+### Fitur Utama
+- Registrasi & login pengguna
+- Manajemen tiket bioskop
+- Pemesanan tiket secara online
+- Dashboard admin & user
+- UI responsif dengan Tailwind CSS
+- API backend Laravel, frontend React SPA
+
+---
+
+## Instalasi & Setup
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/<username>/program-pembelian-tiket-bioskop.git
+cd program-pembelian-tiket-bioskop
+```
+
+### 2. Install Backend (Laravel)
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+```
+Edit file `.env` sesuai konfigurasi database Anda.
+
+### 3. Migrasi & Seed Database
+```bash
+php artisan migrate --seed
+```
+
+### 4. Install Frontend (React)
+```bash
+npm install
+```
+
+### 5. Build Frontend
+```bash
+npm run build
+```
+
+### 6. Jalankan Server
+```bash
+php artisan serve
+```
+Frontend React akan dibundel dan diakses melalui Laravel (lihat konfigurasi Vite).
+
+---
+
+## Struktur Folder
+
+- `app/` : Backend Laravel (Controllers, Models, dll)
+- `resources/js/` : Frontend React SPA
+- `resources/views/` : Blade views (jika diperlukan)
+- `routes/` : Routing Laravel (API & web)
+- `database/` : Migrasi & seeder
+
+---
+
+## Kontribusi
+Silakan buat pull request atau issue untuk perbaikan/penambahan fitur.
+
+---
+
+## Lisensi
+MIT
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
