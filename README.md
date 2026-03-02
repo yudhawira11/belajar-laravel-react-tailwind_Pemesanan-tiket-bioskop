@@ -54,6 +54,7 @@ npm run build
 
 ### 6. Jalankan Server
 ```bash
+npm run dev
 php artisan serve
 ```
 Frontend React akan dibundel dan diakses melalui Laravel (lihat konfigurasi Vite).
