@@ -8,6 +8,9 @@
 </p>
 
 ## Program Pembelian Tiket Bioskop
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/e17eed95-1dfd-43e4-bf13-85f0a0581cdb" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/d0da77f4-65ca-465e-af3a-0918a35a199e" />
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/11d0f4d0-2d91-4402-8fd6-46801e79aa2f" />
 
 Sistem web modern untuk pembelian tiket bioskop, dibangun dengan Laravel sebagai backend API, React sebagai frontend SPA, dan Tailwind CSS untuk desain UI. Mendukung autentikasi menggunakan Laravel Sanctum.
 
